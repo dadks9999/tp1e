@@ -20,5 +20,5 @@
     ],
     "gridDistance": 5,
     "gridUnits": "ft",
-    "initiative": "1d20 + @dex"
+    "initiative": "1d10 + @dex"
 }
