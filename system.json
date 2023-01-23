@@ -1,5 +1,5 @@
 {
-    "name": "TP1e",
+    "name": "tp1e",
     "title": "Three Pillars 1e",
     "description": "Three Pillars system",
     "author": "Daniel",
@@ -7,10 +7,10 @@
     "minimumCoreVersion": "9.280",
     "compatibleCoreVersion": "10.291",
     "esmodules": [
-        "TP1e.js"
+        "tp1e.js"
     ],
     "styles":[
-        "TP1e.css"
+        "tp1e.css"
     ],
     "packs":[
         
