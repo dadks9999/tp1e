@@ -22,7 +22,7 @@
                 "equipped": false,
                 "rarity": "",
                 "identified": true
-              },
+              }
         },
         "weapon":{
             "attack":0,
