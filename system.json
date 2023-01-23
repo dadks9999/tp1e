@@ -2,7 +2,7 @@
     "name": "tp1e",
     "title": "Three Pillars 1e",
     "description": "Three Pillars system",
-    "author": "Daniel",
+    "authors": "Daniel",
     "version": "0.01",
     "minimumCoreVersion": "9.280",
     "compatibleCoreVersion": "10.291",
