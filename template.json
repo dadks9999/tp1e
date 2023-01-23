@@ -1,9 +1,29 @@
 {
     "Actor":{},
     "Item":{
-        "types":[
-            "weapon"
-        ],
+        "types":["weapon", "equipment", "consumable", "tool", "loot", "background", "spell", "feat", "backpack"],
+        "templates": {
+            "itemDescription": {
+              "description": {
+                "value": "",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": ""
+            },
+            "physicalItem": {
+                "quantity": 1,
+                "weight": 0,
+                "price": {
+                  "value": 0,
+                  "denomination": "gp"
+                },
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "",
+                "identified": true
+              },
+        },
         "weapon":{
             "attack":0,
             "damage":0
