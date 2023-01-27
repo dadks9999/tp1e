@@ -1,5 +1,7 @@
 {
-    "Actor":{},
+    "Actor":{
+      
+    },
     "Item":{
         "types":["weapon", "equipment", "consumable", "tool", "loot", "background", "spell", "feat", "backpack"],
         "templates": {
