@@ -23,13 +23,13 @@
     "packs":[
         {
             "name": "monsters",
-            "label": "My Monsters",
+            "label": "Monsters",
             "path": "packs/monsters.db",
             "type": "Actor"
         },
         {
             "name": "items",
-            "label": "My Items",
+            "label": "Items",
             "path": "packs/items.db",
             "type": "Item"
         }
