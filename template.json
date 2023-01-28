@@ -3,7 +3,8 @@
       
     },
     "Item":{
-        "types":["weapon", "equipment", "consumable", "tool", "loot", "background", "spell", "feat", "backpack"],
+        "types":["weapon", "equipment", "consumable", "tool", "loot","container", "background", "feat", "spell"],
+        
         "templates": {
             "itemDescription": {
               "description": {
@@ -27,8 +28,35 @@
               }
         },
         "weapon":{
+            "templates": ["itemDescription","physicalItem"],
             "attack":0,
-            "damage":0
+            "attackModifier":"brawn",
+            "damage":0,
+            "damageType":"bludgeoning"
+        },
+        "equipment":{
+          "templates": ["itemDescription"]
+        },
+        "consumable":{
+          "templates": ["itemDescription"]
+        },
+        "tool":{
+          "templates": ["itemDescription"]
+        },
+        "loot":{
+          "templates": ["itemDescription"]
+        },
+        "container":{
+          "templates": ["itemDescription"]
+        },
+        "background":{
+          "templates": ["itemDescription"]
+        },
+        "feat":{
+          "templates": ["itemDescription"]
+        },
+        "spell":{
+          "templates": ["itemDescription"]
         }
     }
 }
